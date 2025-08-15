@@ -1,0 +1,4 @@
+role,department,required_systems,provisioning_steps,security_clearance,approval_required
+Software Engineer,Engineering,"[""Active Directory"", ""Email"", ""VPN"", ""Development Tools"", ""Code Repository""]","[""Create AD account"", ""Add to dev groups"", ""Setup dev environment"", ""Grant repo access""]",Standard,False
+Account Executive,Sales,"[""Active Directory"", ""Email"", ""CRM"", ""Sales Tools""]","[""Create AD account"", ""Setup CRM access"", ""Assign territory"", ""Add to sales team""]",Standard,False
+HR Business Partner,HR,"[""Active Directory"", ""Email"", ""HRIS"", ""Payroll System""]","[""Create AD account"", ""Grant HRIS access"", ""Setup payroll permissions"", ""Add to HR group""]",Elevated,True

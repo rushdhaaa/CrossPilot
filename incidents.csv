@@ -1,0 +1,15 @@
+id,title,description,customer,category,urgency,impact,source,affected_systems,priority,assigned_team,tags,estimated_resolution_hours,status,created_date,resolution_hours,resolution_notes
+INC20240201001,VPN connection timeout issues,Multiple users reporting VPN connection timeouts when working remotely. Issue started this morning around 9 AM.,IT Help Desk,Network,High,Organization,Monitoring,"[""VPN"", ""Network""]",High,Network Operations,"[""network"", ""vpn"", ""connectivity"", ""remote_work""]",8,in_progress,2024-02-01T09:15:00,,
+INC20240201002,Email delivery delays,Several departments reporting delayed email delivery. External emails taking 30+ minutes to arrive.,Finance Department,Software,Medium,Department,Email,"[""Email""]",Medium,Application Support,"[""email"", ""delivery"", ""performance""]",24,open,2024-02-01T11:30:00,,
+INC20240130001,Laptop screen flickering,Employee laptop screen intermittently flickering. Issue started after recent Windows update.,Jane Smith,Hardware,Low,Individual,Portal,"[""Laptop""]",Low,IT Support,"[""hardware"", ""laptop"", ""display""]",72,resolved,2024-01-30T14:45:00,48.0,Replaced laptop screen
+INC202508147BDD,VPN connection timeout,"Multiple users cannot connect to VPN since 9 AM this morning. Error message shows 'connection timeout after 30 seconds
+", IT Help Desk,Hardware,Low,Individual,Email,[],Low,Network Operations,"['hardware', 'network']",72,open,2025-08-14T21:54:40.354776,,
+INC20250814A1DC,VPN connection timeout,"Multiple users cannot connect to VPN since 9 AM this morning. Error message shows 'connection timeout after 30 seconds
+", IT Help Desk,Hardware,Low,Individual,Email,[],Low,Network Operations,"['hardware', 'network']",72,open,2025-08-14T21:54:41.551753,,
+INC20250814A78B,VPN connection timeout,"Multiple users cannot connect to VPN since 9 AM this morning. Error message shows 'connection timeout after 30 seconds
+", IT Help Desk,Hardware,Low,Individual,Email,[],Low,Network Operations,"['hardware', 'network']",72,open,2025-08-14T21:54:41.688545,,
+INC20250814CB65,VPN connection timeout,"Multiple users cannot connect to VPN since 9 AM this morning. Error message shows 'connection timeout after 30 seconds
+", IT Help Desk,Hardware,Low,Individual,Email,[],Low,Network Operations,"['hardware', 'network']",72,open,2025-08-14T21:54:41.858618,,
+INC20250815E951,VPN connection timeout,Multiple users cannot connect to VPN since 9 AM  in the morning.Error message shows 'connection timeout after 30 seconds',John Smith,Software,Low,Individual,Email,[],Low,Network Operations,"['network', 'software']",72,open,2025-08-15T21:19:55.269561,,
+INC2025081564B4,Email not working,"Email is not working properly, showing error like ,cant open now 
+",IT Help desk,Software,Low,Individual,Email,['Email'],Low,Application Support,"['software', 'email']",72,open,2025-08-15T21:30:48.886638,,

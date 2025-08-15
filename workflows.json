@@ -1,0 +1,201 @@
+[
+  {
+    "id": "WF001",
+    "name": "New Employee Onboarding",
+    "description": "Automated onboarding workflow for new employees",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {
+        "event": "user.created"
+      }
+    },
+    "steps": [
+      {
+        "id": "step1",
+        "name": "Send Welcome Email",
+        "type": "Send Email",
+        "config": {
+          "to": "{{employee_email}}",
+          "subject": "Welcome to the Company!",
+          "template": "Welcome email with first day instructions"
+        }
+      },
+      {
+        "id": "step2",
+        "name": "Create IT Ticket",
+        "type": "Create Ticket",
+        "config": {
+          "ticket_type": "IT Support",
+          "priority": "Medium",
+          "assign_to": "IT Team"
+        }
+      }
+    ],
+    "created_date": "2024-01-15T10:00:00",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "fff102dd-8880-4dc2-862c-a1e6ea8f36c2",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [
+      {
+        "id": "c8b158e4-0bae-49fc-bb60-274a2ec170b3",
+        "name": "",
+        "type": "Send Email",
+        "config": {
+          "to": "",
+          "subject": "",
+          "template": ""
+        }
+      }
+    ],
+    "created_date": "2025-08-13T19:59:36.133507",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "64127b59-3f4d-44b7-b49c-9e781acd808f",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:43.515608",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "4ce4a62c-dc7d-465f-8f8f-ba726afeca29",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:45.444985",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "6f3741c3-fdae-448f-9784-c544b53f113f",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:47.140682",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "3a3654af-43d0-4239-b287-7acd68bcfce8",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:48.592886",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "7eab832d-fcf9-42ae-9b0b-2d02746c6478",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:49.802935",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "ec873dfb-6d79-42eb-9825-edf51290a7a8",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-13T19:59:51.702224",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "ab237002-c896-4f91-851e-ed9a12b48f18",
+    "name": "New Employee Onboarding ",
+    "description": "automated checklist and access provisioning",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Event-based",
+      "config": {}
+    },
+    "steps": [
+      {
+        "id": "2370f27c-77cb-4842-b23b-e3decde1d67e",
+        "name": "",
+        "type": "Send Email",
+        "config": {
+          "to": "rushdhsbasheer3@gmail.com",
+          "subject": "job",
+          "template": "hello"
+        }
+      }
+    ],
+    "created_date": "2025-08-13T20:00:40.835782",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "860d85aa-fba1-4a90-a474-a72c69b15bf7",
+    "name": "Employee IT Setup",
+    "description": "Automatically sets up IT equipment and accounts for new hires",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Manual",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-14T21:49:58.440218",
+    "status": "active",
+    "version": "1.0"
+  },
+  {
+    "id": "7468aa95-973a-4267-a7be-289cbcb1da80",
+    "name": "Employee IT Setup",
+    "description": "Automatically Set up IT equipments and accunts for the new hires\n",
+    "category": "Onboarding",
+    "trigger": {
+      "type": "Manual",
+      "config": {}
+    },
+    "steps": [],
+    "created_date": "2025-08-15T21:27:27.571838",
+    "status": "active",
+    "version": "1.0"
+  }
+]
